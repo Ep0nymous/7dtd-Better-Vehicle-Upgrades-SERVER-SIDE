@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ePONYmous>
+
+	<!-- Vehicle Turbo Charger Schematic -->
+	<append xpath="lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+		<item name="modVehicleTurboChargerSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='vehicleMods']">
+		<item name="modVehicleTurboChargerSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+		<item name="modVehicleTurboChargerSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT2']">
+		<item name="modVehicleTurboChargerSchematic"/>
+	</append>
+
+	<!-- Twin Charger Schematic -->
+	<append xpath="lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+		<item name="modTwinChargerSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='vehicleMods']">
+		<item name="modTwinChargerSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+		<item name="modTwinChargerSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT2']">
+		<item name="modTwinChargerSchematic"/>
+	</append>
+	
+	<!-- Better Vehicle OffRoad Headlights Schematic -->
+	<append xpath="lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+		<item name="modBetterVehicleOffRoadHeadlightsSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='vehicleMods']">
+		<item name="modBetterVehicleOffRoadHeadlightsSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+		<item name="modBetterVehicleOffRoadHeadlightsSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT2']">
+		<item name="modBetterVehicleOffRoadHeadlightsSchematic"/>
+	</append>
+	
+	<!-- Better Vehicle Fuel Saver Schematic -->
+	<append xpath="lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+		<item name="modBetterVehicleFuelSaverSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='vehicleMods']">
+		<item name="modBetterVehicleFuelSaverSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+		<item name="modBetterVehicleFuelSaverSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT2']">
+		<item name="modBetterVehicleFuelSaverSchematic"/>
+	</append>
+	
+	<!-- Better Vehicle Reserve Fuel Tank Schematic -->
+	<append xpath="lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+		<item name="modBetterVehicleReserveFuelTankSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='vehicleMods']">
+		<item name="modBetterVehicleReserveFuelTankSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+		<item name="modBetterVehicleReserveFuelTankSchematic"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsVehiclesT2']">
+		<item name="modBetterVehicleReserveFuelTankSchematic"/>
+	</append>
+
+</ePONYmous>

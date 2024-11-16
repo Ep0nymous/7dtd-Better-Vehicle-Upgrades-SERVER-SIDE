@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ePONYmous>
+
+<!-- Adding a new Turbo Charger schematic -->
+<append xpath="/items">
+	<item name="modVehicleTurboChargerSchematic">
+		<property name="Extends" value="schematicNoQualityMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="modVehicleSuperCharger"/>
+		<property name="CustomIconTint" value="128,128,255"/>
+		<property name="Unlocks" value="modVehicleTurboCharger"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleTurboCharger" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="60"/>
+		</effect_group>
+	</item>
+
+<!-- Adding a new Twin Charger schematic -->
+	<item name="modTwinChargerSchematic">
+		<property name="Extends" value="schematicNoQualityMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="modVehicleSuperCharger"/>
+		<property name="CustomIconTint" value="128,128,255"/>
+		<property name="Unlocks" value="modTwinCharger"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modTwinCharger" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="90"/>
+		</effect_group>
+	</item>
+
+<!-- Adding a better reserve fuel tank -->
+	<item name="modBetterVehicleReserveFuelTankSchematic">
+		<property name="Extends" value="schematicNoQualityMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="modVehicleReserveFuelTank"/>
+		<property name="CustomIconTint" value="128,128,255"/>
+		<property name="Unlocks" value="modBetterVehicleReserveFuelTank"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modBetterVehicleReserveFuelTank" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="90"/>
+		</effect_group>
+	</item>
+	
+	<!-- Adding a better vehicle headlights -->
+	<item name="modBetterVehicleOffRoadHeadlightsSchematic">
+		<property name="Extends" value="schematicNoQualityMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="modVehicleOffRoadHeadlights"/>
+		<property name="CustomIconTint" value="128,128,255"/>
+		<property name="Unlocks" value="modBetterVehicleOffRoadHeadlights"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modBetterVehicleOffRoadHeadlights" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="90"/>
+		</effect_group>
+	</item>
+	
+	<!-- Adding a better fuel saver -->
+	<item name="modBetterVehicleFuelSaverSchematic">
+		<property name="Extends" value="schematicNoQualityMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="modVehicleFuelSaver"/>
+		<property name="CustomIconTint" value="128,128,255"/>
+		<property name="Unlocks" value="modBetterVehicleFuelSaver"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modBetterVehicleFuelSaver" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="90"/>
+		</effect_group>
+	</item>
+
+</append>
+
+</ePONYmous>

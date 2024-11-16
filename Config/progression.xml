@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ePONYmous>
+		<!-- *** ADD ARMOR CRAFTING OFF VEHICLE_SKILLS PROGRESSION-->	
+
+<set xpath="//crafting_skill[@name='craftingVehicles']/@max_level">100</set> 
+	<append xpath="//crafting_skill[@name='craftingVehicles']">
+		<display_entry icon="bettervehiclearmor" name_key="vehiclesT4" has_quality="false" unlock_level="85" >
+			<unlock_entry item="modBetterVehicleArmor" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="vehicleplow" name_key="vehiclesT5" has_quality="false" unlock_level="100" >
+			<unlock_entry item="modBetterVehiclePlow" unlock_tier="1" />
+		</display_entry>	
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="modBetterVehicleArmor"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="modBetterVehiclePlow"/>
+		</effect_group>		
+	</append>
+
+</ePONYmous>

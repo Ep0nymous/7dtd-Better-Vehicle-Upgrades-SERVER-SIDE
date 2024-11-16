@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ePONYmous>
+
+	<append xpath="/recipes">
+
+		<!-- Adding the crafting recipe for the Turbo Charger -->
+		<recipe name="modVehicleTurboCharger" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+			<ingredient name="resourceRadiator" count="3"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+		</recipe>
+
+		<!-- Adding the crafting recipe for the Twin Charger -->
+		<recipe name="modTwinCharger" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="50"/>
+			<ingredient name="modVehicleSuperCharger" count="1"/>
+			<ingredient name="resourceRadiator" count="8"/>
+			<ingredient name="modVehicleTurboCharger" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="30"/>
+		</recipe>
+
+		<!-- Adding the crafting recipe for the Better Vehicle Armor -->
+		<recipe name="modBetterVehicleArmor" count="1" craft_time="360" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+			<ingredient name="resourceForgedSteel" count="40"/>
+			<ingredient name="modVehicleArmor" count="1"/>
+			<ingredient name="resourceMetalPipe" count="50"/>
+			<ingredient name="resourceMechanicalParts" count="25"/>
+			<ingredient name="resourceForgedIron" count="40"/>
+		</recipe>
+
+		<!-- Adding the crafting recipe for the Vehicle Plow -->
+		<recipe name="modBetterVehiclePlow" count="1" craft_time="360" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+			<ingredient name="resourceForgedSteel" count="40"/>
+			<ingredient name="modVehiclePlow" count="1"/>
+			<ingredient name="resourceMetalPipe" count="50"/>
+			<ingredient name="resourceLeather" count="80"/>
+			<ingredient name="resourceForgedIron" count="50"/>	
+		</recipe>
+
+		<!-- Adding the crafting recipe for the Better Reserve Fuel Tank -->
+		<recipe name="modBetterVehicleReserveFuelTank" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="modVehicleReserveFuelTank" count="1"/>
+			<ingredient name="resourceDuctTape" count="20"/>
+			<ingredient name="resourceForgedIron" count="50"/>
+		</recipe>
+
+		<!-- Adding the crafting recipe for the Better Vehicle Headlights -->
+		<recipe name="modBetterVehicleOffRoadHeadlights" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceElectricParts" count="50"/>
+			<ingredient name="modVehicleOffRoadHeadlights" count="1"/>
+			<ingredient name="resourceDuctTape" count="20"/>
+			<ingredient name="resourceHeadlight" count="40"/>
+			<ingredient name="resourceMechanicalParts" count="30"/>
+		</recipe>
+
+	</append>
+
+</ePONYmous>

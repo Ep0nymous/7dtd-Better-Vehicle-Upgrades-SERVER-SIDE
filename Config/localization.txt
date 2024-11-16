@@ -1,0 +1,27 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,schinese
+
+modVehicleTurboCharger,item_modifiers,mod,,,Vehicle Turbocharger Mod,,车辆涡轮增压器模组
+modVehicleTurboChargerDesc,item_modifiers,mod,,,"More speed but less 'low-end'\nHalf the acceleration added by a supercharger but twice the max speed.\nMuch better than your standard engine!",,"更高的速度，但较少的“低端”\n由增压器提供的一半加速度，但两倍的最高速度。\n比普通发动机好得多！"
+modVehicleTurboChargerSchematic,item_modifiers,mod,,,"Turbocharger mod Schematic",,"涡轮增压器模组图纸"
+
+modTwinCharger,item_modifiers,mod,,,Vehicle Twin-Charger,,车辆双增压器
+modTwinChargerDesc,item_modifiers,mod,,,"After some extensive plumbing you've managed to combine a supercharger with a turbocharger. \nLow-end torque with high-end speed.\nThe ultimate engine upgrade!",,"经过一些复杂的管道改装，你成功地将增压器和涡轮增压器结合在一起。\n低端扭矩与高端速度兼备。\n终极引擎升级！"
+modTwinChargerSchematic,item_modifiers,mod,,,"Twin-Charger mod Schematic",,"双增压器模组图纸"
+
+modBetterVehicleArmor,item_modifiers,mod,,,Better Vehicle Armor,,更好的车辆装甲
+modBetterVehicleArmorDesc,item_modifiers,mod,,,"More steel, more iron, more rebar! \nLike a Katamari you'll roll almost anything.\nA logical upgrade of your existing vehicle armor",,"更多钢材，更多铁，更多钢筋！\n就像块魂球一样，你几乎能碾过任何东西。\n对现有车辆装甲的合理升级"
+
+modBetterVehiclePlow,item_modifiers,mod,,,Better 4x4 Plow,,更好的四驱铲
+modBetterVehiclePlowDesc,item_modifiers,mod,,,"An upgrade to the your existing 4x4 plow.\nMuch less vehicle damage from things the front of your 4x4 hits.\nMr Plow, that's my name, my name again is Mr Plow!",,"对现有四驱铲的升级。\n显著减少车辆因四驱前端碰撞而受到的损害。"
+
+modBetterVehicleReserveFuelTank,item_modifiers,mod,,,Better Reserve Fuel Tank,,更好的备用燃料箱
+modBetterVehicleReserveFuelTankDesc,item_modifiers,mod,,,"Got gas?\nA notable increase in how much gas you can carry.\n50% more than your old reserve tank mod",,"有油吗？\n显著增加你能携带的燃油量。\n比旧的备用燃料箱模组多50%"
+modBetterVehicleReserveFuelTankSchematic,item_modifiers,mod,,,"Better reserve fuel tank mod Schematic",,"更好的备用燃料箱模组图纸"
+
+modBetterVehicleOffRoadHeadlights,item_modifiers,mod,,,Better Vehicle Headlights,,更好的车辆前灯
+modBetterVehicleOffRoadHeadlightsDesc,item_modifiers,mod,,,"50% more output than your existing headlight upgrade.\nOne headlight to rule them all, and in the darkness blind them!",,"比现有前灯升级增加50%的亮度输出。\n一灯掌控一切，在黑暗中让他们目眩！"
+modBetterVehicleOffRoadHeadlightsSchematic,item_modifiers,mod,,,"Better Vehicle Headlights mod Schematic",,"更好的车辆前灯模组图纸"
+
+modBetterVehicleFuelSaver,item_modifiers,mod,,,Better Vehicle Fuelsaver,,更好的车辆省油器
+modBetterVehicleFuelSaverDesc,item_modifiers,mod,,,"Almost 50% less fuel than your existing saver upgrade.\nIt just sucks less",,"比现有的省油升级节省近50%的燃料。\n它就是更省油。"
+modBetterVehicleFuelSaverSchematic,item_modifiers,mod,,,"Better Vehicle Fuelsaver mod Schematic",,"更好的车辆省油器模组图纸"

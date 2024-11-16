@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ePONYmous>
+
+	<!-- Vehicle Turbo Charger Schematic -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsVehiclesMods']">
+		<item name="modVehicleTurboChargerSchematic"/>
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modVehicleTurboChargerSchematic"/>
+	</append>
+
+	<!-- Twin Charger Schematic -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsVehiclesMods']">
+		<item name="modTwinChargerSchematic"/>
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modTwinChargerSchematic"/>
+	</append>
+
+	<!-- Better Vehicle OffRoad Headlights Schematic -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsVehiclesMods']">
+		<item name="modBetterVehicleOffRoadHeadlightsSchematic"/>
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modBetterVehicleOffRoadHeadlightsSchematic"/>
+	</append>
+	
+	<!-- Better Vehicle Fuel Saver Schematic -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsVehiclesMods']">
+		<item name="modBetterVehicleFuelSaverSchematic"/>
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modBetterVehicleFuelSaverSchematic"/>
+	</append>
+	
+	<!-- Better Vehicle Fuel Tank Reserve Schematic -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsVehiclesMods']">
+		<item name="modBetterVehicleReserveFuelTankSchematic"/>
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modBetterVehicleReserveFuelTankSchematic"/>
+	</append>
+
+</ePONYmous>
