@@ -55,6 +55,15 @@
 			<ingredient name="resourceHeadlight" count="40"/>
 			<ingredient name="resourceMechanicalParts" count="30"/>
 		</recipe>
+		
+		<!-- Adding the crafting recipe for the Better Vehicle FuelSaver -->
+		<recipe name="modBetterVehicleFuelSaver" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceElectricParts" count="40"/>
+			<ingredient name="modVehicleFuelSaver" count="1"/>
+			<ingredient name="resourceDuctTape" count="30"/>
+			<ingredient name="resourceForgedSteel" count="40"/>
+			<ingredient name="resourceMechanicalParts" count="30"/>
+		</recipe>
 
 	</append>
 
