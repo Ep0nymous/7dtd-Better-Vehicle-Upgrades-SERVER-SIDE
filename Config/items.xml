@@ -2,8 +2,9 @@
 
 <ePONYmous>
 
-<!-- Adding a new Turbo Charger schematic -->
 <append xpath="/items">
+
+<!-- Adding a new Turbo Charger schematic -->
 	<item name="modVehicleTurboChargerSchematic">
 		<property name="Extends" value="schematicNoQualityMaster"/>
 		<property name="CreativeMode" value="Player"/>

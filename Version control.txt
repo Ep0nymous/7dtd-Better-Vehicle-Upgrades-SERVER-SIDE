@@ -1,3 +1,6 @@
+V1.3 added Localization for all languages. #eponymous#
+german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese
+
 V1.2 added new mod.  #eponymous#
  - Created upgraded FUEL SAVER mod + schematic + recipe + added to loot tables + added to trader
 

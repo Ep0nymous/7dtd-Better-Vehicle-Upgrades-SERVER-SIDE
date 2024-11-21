@@ -28,40 +28,11 @@
 			<passive_effect name="VehicleVelocityMaxPer" operation="perc_add" value=".3"/> <!-- Default Supercharger is 0.18, Added Turbo is 0.3 -->
 		</effect_group>
 	</item_modifier>
-
-<!-- Adding a better vehicle armor modifier for vehicles -->
-		<item_modifier name="modBetterVehicleArmor" installable_tags="varmor" modifier_tags="armor" blocked_tags="noMods" type="attachment">
-		<property name="Extends" value="modGeneralMaster"/>
-		<property name="UnlockedBy" value="modVehicleArmorSchematic"/>
-		<property name="TraderStageTemplate" value="modsTier4"/>
-		<property name="CustomIcon" value="modVehicleArmor"/>
-		<property name="CustomIconTint" value="128,128,255"/>
-		<effect_group tiered="false">
-			<passive_effect name="VehicleEntityDamage" operation="perc_add" value="0.8"/> <!-- up from 0.5 -->
-			<passive_effect name="VehicleBlockDamage" operation="perc_add" value=".7"/>  <!-- up from 0.38 -->
-			<passive_effect name="VehicleStrongSelfDamage" operation="perc_set" value=".1"/>  <!-- down from 0.3 -->
-		</effect_group>
-	</item_modifier>
-
-<!-- Adding a better vehicle plow modifier for vehicles -->
-	<item_modifier name="modBetterVehiclePlow" installable_tags="vplow" modifier_tags="plow" blocked_tags="noMods" type="attachment">
-		<property name="Extends" value="modGeneralMaster"/>
-		<property name="UnlockedBy" value="craftingVehicles"/>
-		<property name="TraderStageTemplate" value="modsTier4"/>
-		<property name="UnlockedBy" value="modVehiclePlowSchematic"/>
-		<property name="CustomIcon" value="modVehiclePlow"/>
-		<property name="CustomIconTint" value="128,128,255"/>
-		<effect_group tiered="false">
-			<passive_effect name="VehicleEntityDamage" operation="perc_add" value="1"/> <!-- up from 0.6 -->
-			<passive_effect name="VehicleBlockDamage" operation="perc_add" value=".8"/> <!-- up from 0.56 -->
-			<passive_effect name="VehicleStrongSelfDamage" operation="perc_set" value=".01"/> <!-- down from 0.25 -->
-		</effect_group>
-	</item_modifier>
 	
 <!-- Adding a better Reserve Tank for vehicles -->
 	<item_modifier name="modBetterVehicleReserveFuelTank" installable_tags="vfuel" modifier_tags="fueltank" blocked_tags="noMods" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
-		<property name="UnlockedBy" value="craftingVehicles"/>
+		<property name="UnlockedBy" value="modVehicleReserveFuelTankSchematic"/>
 		<property name="TraderStageTemplate" value="modsTier4"/>
 		<property name="CustomIcon" value="modVehicleReserveFuelTank"/>
 		<property name="CustomIconTint" value="128,128,255"/>
@@ -69,7 +40,7 @@
 			<passive_effect name="VehicleFuelMaxPer" operation="perc_set" value="2.7"/>  <!-- up from 1.8 -->
 		</effect_group>
 	</item_modifier>
-
+	
 <!-- Adding a better headlights for vehicles -->
 	<item_modifier name="modBetterVehicleOffRoadHeadlights" installable_tags="vlight" modifier_tags="light" blocked_tags="noMods" type="attachment">
 		<property name="Extends" value="modGeneralMaster"/>
@@ -93,7 +64,35 @@
 			<passive_effect name="VehicleFuelUsePer" operation="perc_set" value=".3"/> <!-- down from 0.5 -->
 		</effect_group>
 	</item_modifier>
-	
+
+<!-- Adding a better vehicle armor modifier for vehicles -->
+		<item_modifier name="modBetterVehicleArmor" installable_tags="varmor" modifier_tags="armor" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="craftingVehicles"/>
+		<property name="TraderStageTemplate" value="modsTier4"/>
+		<property name="CustomIcon" value="modVehicleArmor"/>
+		<property name="CustomIconTint" value="128,128,255"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleEntityDamage" operation="perc_add" value="0.8"/> <!-- up from 0.5 -->
+			<passive_effect name="VehicleBlockDamage" operation="perc_add" value=".7"/>  <!-- up from 0.38 -->
+			<passive_effect name="VehicleStrongSelfDamage" operation="perc_set" value=".1"/>  <!-- down from 0.3 -->
+		</effect_group>
+	</item_modifier>
+
+<!-- Adding a better vehicle plow modifier for vehicles -->
+	<item_modifier name="modBetterVehiclePlow" installable_tags="vplow" modifier_tags="plow" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="craftingVehicles"/>
+		<property name="TraderStageTemplate" value="modsTier4"/>
+		<property name="CustomIcon" value="modVehiclePlow"/>
+		<property name="CustomIconTint" value="128,128,255"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleEntityDamage" operation="perc_add" value="1"/> <!-- up from 0.6 -->
+			<passive_effect name="VehicleBlockDamage" operation="perc_add" value=".8"/> <!-- up from 0.56 -->
+			<passive_effect name="VehicleStrongSelfDamage" operation="perc_set" value=".01"/> <!-- down from 0.25 -->
+		</effect_group>
+	</item_modifier>
+
 </append>
 
 </ePONYmous>
